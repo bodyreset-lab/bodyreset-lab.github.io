@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>腸から整える姿勢×ボディリセット講座｜営業用LP（1ファイル）</title>
+<meta name="description" content="腰痛・疲れ・ぽっこりお腹をまとめて解消。『腸から整える姿勢×ボディリセット講座』公式LP。1日5分で、腸と姿勢を整えるセルフケアを習慣化。">
+<style>
+  /* ---------- Base ---------- */
+  :root{
+    --bg:#0f1220;
+    --card:#151934;
+    --acc:#4dd2c9;
+    --acc-2:#b8f5b1;
+    --text:#eef3ff;
+    --muted:#b8c0e0;
+    --danger:#ff7a7a;
+    --shadow: 0 10px 30px rgba(0,0,0,.35);
+    --radius:14px;
+    --radius-sm:10px;
+    --maxw:1100px;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0;background:linear-gradient(180deg,#0c0f1d 0%, #0f1220 100%);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Hiragino Kaku Gothic ProN","Noto Sans JP","Yu Gothic",Meiryo,Helvetica,Arial,sans-serif;line-height:1.75}
+  a{color:var(--acc);text-decoration:none}
+  img{max-width:100%;display:block}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 18px}
+  .pill{display:inline-block;padding:.35rem .7rem;border-radius:999px;background:rgba(77,210,201,.1);border:1px solid rgba(77,210,201,.35);color:var(--acc);font-weight:600;letter-spacing:.02em}
+  .btn{display:inline-block;padding:.9rem 1.1rem;border-radius:12px;font-weight:700;letter-spacing:.03em;border:1px solid transparent;transition:.2s;box-shadow:var(--shadow)}
+  .btn:focus{outline:2px solid var(--acc)}
+  .btn-primary{background:linear-gradient(135deg,var(--acc),#6be4cf);color:#0b1220}
+  .btn-primary:hover{transform:translateY(-1px)}
+  .btn-line{background:#06c755;color:#0b1220}
+  .btn-ghost{background:transparent;border-color:rgba(255,255,255,.2);color:var(--text)}
+  .grid{display:grid;gap:16px}
+  .card{background:linear-gradient(180deg,rgba(255,255,255,.04),rgba(255,255,255,.02));border:1px solid rgba(255,255,255,.08);border-radius:var(--radius);padding:18px}
+  h1,h2,h3{line-height:1.35;margin:.2em 0 .4em}
+  h1{font-size:clamp(28px,5.5vw,44px)}
+  h2{font-size:clamp(22px,4.6vw,32px)}
+  h3{font-size:clamp(18px,4vw,24px)}
+  p{margin:.6em 0}
+  ul{padding-left:1.2em;margin:.6em 0}
+  /* ---------- Header ---------- */
+  header{position:sticky;top:0;z-index:30;background:rgba(15,18,32,.65);backdrop-filter:saturate(1.2) blur(10px);border-bottom:1px solid rgba(255,255,255,.06)}
+  .hdr{display:flex;align-items:center;justify-content:space-between;height:64px}
+  .brand{display:flex;gap:10px;align-items:center}
+  .logo{width:28px;height:28px;border-radius:8px;background:conic-gradient(from 210deg,var(--acc),#6be4cf 40%,#8cf0d8);border:1px solid rgba(255,255,255,.35)}
+  nav a{margin-left:14px;font-size:.95rem;color:var(--muted)}
+  nav a:hover{color:var(--text)}
+  /* ---------- Hero ---------- */
+  .hero{padding:54px 0 28px}
+  .hero .headline{margin-top:8px;max-width:900px}
+  .hero .sub{color:var(--muted);font-size:clamp(14px,2.8vw,18px)}
+  .cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:18px}
+  /* ---------- Social proof ---------- */
+  .proof{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px;color:var(--muted);font-size:.92rem}
+  .proof .b{font-weight:700;color:var(--text)}
+  /* ---------- Split ---------- */
+  .split{display:grid;grid-template-columns:1.1fr 1fr;gap:18px;align-items:stretch}
+  @media(max-width:900px){.split{grid-template-columns:1fr}}
+  .illus{position:relative;min-height:260px;border-radius:var(--radius);background:radial-gradient(60% 60% at 40% 30%,rgba(77,210,201,.25),transparent 60%),linear-gradient(180deg,rgba(255,255,255,.06),rgba(255,255,255,.02));border:1px solid rgba(255,255,255,.1)}
+  .illus::after{content:"";position:absolute;inset:16px;border-radius:12px;border:1px dashed rgba(255,255,255,.18)}
+  /* ---------- Sections ---------- */
+  section{padding:24px 0}
+  .sec-title{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+  .sec-title .bar{width:8px;height:24px;border-radius:4px;background:linear-gradient(180deg,var(--acc),#8cf0d8)}
+  .muted{color:var(--muted)}
+  /* ---------- List styles ---------- */
+  .check{list-style:none;padding-left:0}
+  .check li{padding-left:28px;position:relative;margin:.45em 0}
+  .check li::before{content:"✓";position:absolute;left:0;top:.1em;background:linear-gradient(135deg,var(--acc),#8cf0d8);-webkit-background-clip:text;background-clip:text;color:transparent;font-weight:900}
+  .ng li::before{content:"✕";color:var(--danger);background:none}
+  /* ---------- Curriculum ---------- */
+  .curr{grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+  .badge{font-size:.8rem;opacity:.85}
+  .small{font-size:.92rem}
+  /* ---------- FAQ ---------- */
+  details{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);border-radius:12px;padding:12px 14px}
+  details+details{margin-top:8px}
+  summary{cursor:pointer;font-weight:700}
+  /* ---------- Footer ---------- */
+  footer{padding:30px 0 110px;color:var(--muted)}
+  .foot-links a{margin-right:14px}
+  /* ---------- Sticky CTA (mobile) ---------- */
+  .sticky-cta{position:fixed;left:0;right:0;bottom:0;z-index:40;background:rgba(15,18,32,.85);backdrop-filter:blur(10px);border-top:1px solid rgba(255,255,255,.08);padding:10px}
+  .sticky-cta .wrap{display:flex;gap:10px}
+  @media(min-width:860px){.sticky-cta{display:none}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap hdr">
+    <div class="brand" aria-label="講座ロゴ">
+      <div class="logo" aria-hidden="true"></div>
+      <strong>腸×姿勢リセット講座</strong>
+    </div>
+    <nav aria-label="ナビゲーション">
+      <a href="#about">特徴</a>
+      <a href="#goal">到達ゴール</a>
+      <a href="#curriculum">カリキュラム</a>
+      <a href="#bonus">特典</a>
+      <a href="#contact">申込</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap split">
+      <div>
+        <span class="pill">営業用LP｜スマホ最適化・1日5分</span>
+        <h1 class="headline">👉 『<ruby>腸<rt>ちょう</rt></ruby>から整える<strong>姿勢×ボディリセット講座</strong>』<br><small class="sub">〜腰痛・疲れ・ぽっこりお腹をまとめて解消〜</small></h1>
+        <p class="muted">「慢性的な腰痛・肩こり」「代謝低下で太りやすい」「運動が続かない」。そんな<em>佐藤美香さん（52）</em>のようなお悩みに、<strong>腸からのアプローチ</strong>で根本改善をめざします。</p>
+        <div class="cta" role="group" aria-label="主要行動">
+          <a class="btn btn-primary" href="#contact">無料相談を申し込む</a>
+          <a class="btn btn-line" href="#line">LINEで質問する</a>
+          <a class="btn btn-ghost" href="#curriculum">内容を見る</a>
+        </div>
+        <div class="proof">
+          <span class="b">累計15,000名以上を施術・23年の理学療法経験</span>／スマホで完結／全5本動画＋2週間サポート
+        </div>
+      </div>
+      <div class="illus" aria-hidden="true"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT / PROBLEM-SOLUTION -->
+  <section id="about">
+    <div class="wrap grid" style="grid-template-columns:1.1fr 1fr">
+      <div class="card">
+        <div class="sec-title"><span class="bar"></span><h2>こんな悩み、ありませんか？</h2></div>
+        <ul class="check ng">
+          <li>慢性的な腰痛・肩こりがつらい</li>
+          <li>最近太りやすく、代謝が落ちた気がする</li>
+          <li>運動しても続かない／整体やジムでも根本改善しない</li>
+        </ul>
+        <p>その原因、<strong>腸のコンディション</strong>が関わっているかもしれません。腸が硬くなると骨盤がゆがみ、姿勢が崩れて腰や背中に負担。結果、呼吸が浅くなり代謝も低下…。本講座は、この<em>負のループ</em>を切るための実践プログラムです。</p>
+      </div>
+      <div class="card">
+        <div class="sec-title"><span class="bar"></span><h2>講座で得られる変化</h2></div>
+        <ul class="check">
+          <li>腸の調子が整い、体の中からスッキリ軽くなる</li>
+          <li>姿勢が整って腰の痛みが減り、呼吸が深くなる</li>
+          <li>代謝が上がり、無理なく体が引き締まる</li>
+          <li>「疲れにくく、見た目も若い」自分に戻る</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- GOALS -->
+  <section id="goal">
+    <div class="wrap">
+      <div class="card">
+        <div class="sec-title"><span class="bar"></span><h2>ゴール（到達目標）</h2></div>
+        <p class="muted">1日5分のセルフケアを身につけ、<strong>腸×姿勢</strong>を自分で整え続けられる状態へ。</p>
+        <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(220px,1fr))">
+          <div class="card"><h3>01 内側から軽く</h3><p>腸の調子が整い、むくみやだるさが軽減。</p></div>
+          <div class="card"><h3>02 痛みを減らす</h3><p>骨盤リセットで姿勢改善、腰痛・肩こりにアプローチ。</p></div>
+          <div class="card"><h3>03 代謝アップ</h3><p>呼吸と姿勢を整え、自然に引き締まる体へ。</p></div>
+          <div class="card"><h3>04 継続できる</h3><p>「一生使える」5分ルーティンを習慣化。</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CURRICULUM -->
+  <section id="curriculum">
+    <div class="wrap">
+      <div class="sec-title"><span class="bar"></span><h2>カリキュラム（全5本動画＋サポート）</h2></div>
+      <div class="grid curr">
+        <div class="card">
+          <div class="badge">第1回</div>
+          <h3>疲れと姿勢は腸から始まる</h3>
+          <p class="small">腸の歪み・姿勢・腰痛の関係／理論とチェック法</p>
+          <p class="muted">成果：なぜ今の体調なのかを理解</p>
+        </div>
+        <div class="card">
+          <div class="badge">第2回</div>
+          <h3>腸×姿勢リセットストレッチ</h3>
+          <p class="small">呼吸・骨盤リリース・腸ほぐし／簡単3分習慣</p>
+          <p class="muted">成果：腰痛軽減＆お腹スッキリ</p>
+        </div>
+        <div class="card">
+          <div class="badge">第3回</div>
+          <h3>疲れにくい体の使い方</h3>
+          <p class="small">正しい座り方・立ち方・歩き方／姿勢リセット法</p>
+          <p class="muted">成果：1日中ラクな体を実感</p>
+        </div>
+        <div class="card">
+          <div class="badge">第4回</div>
+          <h3>腸から代謝を上げる食とセルフケア</h3>
+          <p class="small">腸に良い食習慣／朝・夜の整え方</p>
+          <p class="muted">成果：むくみ減・体が軽くなる</p>
+        </div>
+        <div class="card">
+          <div class="badge">第5回</div>
+          <h3>1日5分・一生使えるリセット法</h3>
+          <p class="small">習慣化・セルフメンテナンス計画</p>
+          <p class="muted">成果：自分で体を整え続けられる</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BONUS -->
+  <section id="bonus">
+    <div class="wrap split">
+      <div class="card">
+        <div class="sec-title"><span class="bar"></span><h2>🎁 受講特典：LINEサポート2週間</h2></div>
+        <ul class="check">
+          <li>毎日の質問にテキスト/音声で回答</li>
+          <li>フォーム動画を送れば姿勢チェック</li>
+          <li>つまずきポイントの改善提案</li>
+        </ul>
+        <p class="muted">※サポート開始日は受講開始後にご案内します。</p>
+      </div>
+      <div id="line" class="card">
+        <div class="sec-title"><span class="bar"></span><h2>LINEで事前相談</h2></div>
+        <p>気になる点は今すぐLINEでどうぞ。相談は無料です。</p>
+        <div class="cta">
+          <a class="btn btn-line" href="https://line.me/R/ti/p/%40yourlineid" target="_blank" rel="noopener">LINEで友だち追加</a>
+          <a class="btn btn-ghost" href="#faq">よくある質問を見る</a>
+        </div>
+        <p class="small muted">※上記リンクのIDはご自身のLINE公式アカウントに置き換えてください。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- INSTRUCTOR -->
+  <section id="instructor">
+    <div class="wrap">
+      <div class="card">
+        <div class="sec-title"><span class="bar"></span><h2>講師プロフィール</h2></div>
+        <p><strong>オッチー｜美姿勢×ボディメイク</strong>／整体・理学療法士。<br>累計<strong>15,000名以上</strong>を施術、<strong>23年</strong>の臨床経験。腸と姿勢の相互作用に基づき、<em>「1日5分で続く」</em>セルフケア設計を得意とする。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section id="contact">
+    <div class="wrap">
+      <div class="card" style="text-align:center">
+        <h2>まずは無料相談から</h2>
+        <p class="muted">あなたの現状に合わせた進め方をご提案します（所要15分）。</p>
+        <div class="cta" style="justify-content:center">
+          <a class="btn btn-primary" href="https://forms.gle/yourformid" target="_blank" rel="noopener">無料相談を申し込む</a>
+          <a class="btn btn-ghost" href="#faq">質問してから決める</a>
+        </div>
+        <p class="small muted">※フォームURLはご自身のものに置き換えてください。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq">
+    <div class="wrap">
+      <div class="sec-title"><span class="bar"></span><h2>よくある質問</h2></div>
+      <details>
+        <summary>運動が苦手でも大丈夫ですか？</summary>
+        <p>はい。各回は3〜5分で完了するシンプルな内容です。体力に合わせて段階調整できるように設計しています。</p>
+      </details>
+      <details>
+        <summary>準備する道具はありますか？</summary>
+        <p>基本は不要。ヨガマットやタオルがあると快適です。</p>
+      </details>
+      <details>
+        <summary>効果はいつ頃から感じられますか？</summary>
+        <p>個人差はありますが、呼吸の深さや体の軽さは早い方で数日〜2週間で実感の声が多いです。</p>
+      </details>
+      <details>
+        <summary>忙しくて続く自信がありません…</summary>
+        <p>短時間・低負荷・シンプルな3点に絞っているため、<em>「ながら」</em>で取り入れやすいです。LINEサポートで伴走もします。</p>
+      </details>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-links">
+      <a href="#contact">無料相談</a>
+      <a href="#line">LINE</a>
+      <a href="#faq">FAQ</a>
+    </div>
+    <p class="small">© <span id="y"></span> 腸×姿勢リセット講座</p>
+  </div>
+</footer>
+
+<!-- Sticky CTA (mobile) -->
+<div class="sticky-cta" role="region" aria-label="固定CTA">
+  <div class="wrap">
+    <a class="btn btn-primary" href="#contact" style="flex:1 1 auto;text-align:center">無料相談</a>
+    <a class="btn btn-line" href="#line" style="flex:1 1 auto;text-align:center">LINEで質問</a>
+  </div>
+</div>
+
+<!-- JSON-LD (構造化データ) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "腸から整える姿勢×ボディリセット講座",
+  "description": "腰痛・疲れ・ぽっこりお腹をまとめて解消する、腸と姿勢の相互作用に基づいた全5回オンライン講座。1日5分で続くセルフケアと2週間のLINEサポート付き。",
+  "provider": {
+    "@type": "Organization",
+    "name": "オッチー｜美姿勢×ボディメイク"
+  }
+}
+</script>
+
+<script>
+  // 年表示
+  document.getElementById('y').textContent = new Date().getFullYear();
+  // スムーズスクロール（ネイティブ対応の簡易版）
+  document.querySelectorAll('a[href^="#"]').forEach(a=>{
+    a.addEventListener('click',e=>{
+      const id=a.getAttribute('href').slice(1);
+      const el=document.getElementById(id);
+      if(el){ e.preventDefault(); el.scrollIntoView({behavior:'smooth',block:'start'}) }
+    });
+  });
+</script>
+</body>
+</html>
